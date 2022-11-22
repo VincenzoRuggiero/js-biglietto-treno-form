@@ -16,6 +16,6 @@ button.addEventListener("click", function () {
   } else {
     fullPrice;
   }
-});
 
-document.getElementById("output").innerHTML = fullPrice.toFixed(2) + "&euro;";
+  document.getElementById("output").innerHTML = fullPrice.toFixed(2) + "&euro;";
+});
